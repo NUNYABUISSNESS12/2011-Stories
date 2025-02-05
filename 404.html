@@ -6,36 +6,37 @@
     <title>Page Not Found</title>
     <style>
         body {
-            text-align: center;
-            padding: 50px;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background-image: url('https://t3.ftcdn.net/jpg/03/21/26/66/240_F_321266617_e0lp9cUdrqOeHlOJd6uZWfn4CrFLgKpB.jpg');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: yellow;
             font-family: Arial, sans-serif;
+            text-align: center;
         }
-        video {
-            width: 80%;
-            max-width: 600px;
-            height: auto;
-            border: 2px solid #ccc;
-            border-radius: 10px;
+
+        h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
         }
-        img {
-            width: 80%;
-            max-width: 600px;
-            height: auto;
-            border: 2px solid #ccc;
-            border-radius: 10px;
+
+        .message {
+            font-size: 1.5rem;
+            margin-top: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
         }
     </style>
 </head>
 <body>
-    <h1>Oops! The page you're looking for doesn't exist.</h1>
-    <p>But here's something interesting for you to watch!</p>
-    
-    <!-- Video element with a poster image (thumbnail.jpg) -->
-    <video controls poster="thumbnail.jpg">
-        <source src="404.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    
-    <p><a href="/">Go back to the homepage</a></p>
+    <div>
+        <h1>🚧 Page Not Found 🚧</h1>
+        <p class="message">Oops! We can't seem to find the page you're looking for.</p>
+    </div>
 </body>
 </html>
